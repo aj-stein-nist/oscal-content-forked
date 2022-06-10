@@ -78,8 +78,6 @@ jobs:
         run:
           bash "${GITHUB_WORKSPACE}/git-content/${CICD_DIR_PATH}/copy-and-convert-content.sh" -o "${GITHUB_WORKSPACE}/git-content/${OSCAL_DIR_PATH}" -a "${GITHUB_WORKSPACE}/git-content" -c "${GITHUB_WORKSPACE}/git-content/${CONTENT_CONFIG_PATH}" -w "${GITHUB_WORKSPACE}/git-content" --resolve-profiles
       - name: Publish Artifacts
-        # only do this on master
-        if: github.repository == env.HOME_REPO && github.ref == 'refs/heads/master'
         uses: stefanzweifel/git-auto-commit-action@v4.5.1
         with:
           repository: git-content
