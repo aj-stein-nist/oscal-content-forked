@@ -1,14 +1,14 @@
 {
   "catalog": {
-    "uuid": "8f1b188b-5315-4c4d-a95a-1917f3cd5a62",
+    "uuid": "29918552-c3f3-4011-9858-cac41b52b9bb",
     "metadata": {
       "title": "NIST Special Publication 800-53 Revision 4 HIGH IMPACT BASELINE",
-      "last-modified": "2022-01-25T16:50:25.403866Z",
+      "last-modified": "2022-06-13T13:48:30.724186Z",
       "version": "2015-01-22",
       "oscal-version": "1.0.0",
       "links": [
         {
-          "href": "NIST_SP-800-53_rev4_HIGH-baseline_profile.xml",
+          "href": "NIST_SP-800-53_rev4_HIGH-baseline_profile.json",
           "rel": "resolution-source"
         }
       ],

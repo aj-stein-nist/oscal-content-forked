@@ -1,13 +1,13 @@
 ---
 catalog:
-  uuid: f97bc35d-9782-462d-85b7-44d26d47f9e2
+  uuid: e2dc2049-f4ac-4463-bd9b-21ffd3d46258
   metadata:
     title: SP800-53 LOW IMPACT BASELINE
-    last-modified: 2022-01-25T16:52:25.329073Z
+    last-modified: 2022-06-13T13:54:04.728568Z
     version: FPD
     oscal-version: 1.0.0
     links:
-      - href: NIST_SP-800-53_rev5-FPD_LOW-baseline_profile.xml
+      - href: NIST_SP-800-53_rev5-FPD_LOW-baseline_profile.yaml
         rel: resolution-source
     roles:
       - id: creator
