@@ -80,7 +80,7 @@ jobs:
       - name: Publish Artifacts
         # only do this on main
         if: github.repository == env.HOME_REPO && github.ref == 'refs/heads/main'
-        uses: stefanzweifel/git-auto-commit-action@v4.5.1
+        uses: stefanzweifel/git-auto-commit-action@v4.15.1
         with:
           repository: git-content
           push_options: --force
