@@ -2,3 +2,6 @@
 	path = oscal
 	url = https://github.com/usnistgov/OSCAL.git
 	branch = master
+[submodule "src/cms.gov"]
+	path = src/cms.gov
+	url = https://github.com/CMSgov/ars-machine-readable.git
